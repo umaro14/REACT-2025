@@ -13,3 +13,13 @@ a condition is not met.
 -if value-1 is true, the result will be value-2
 -if value-1 is false, the result will be false.
 ---------------------------------------------------------------------------------------------------
+
+# Copy
+In react we shoul not modify the data directly, we should always create a COPY, then modify the copy.
+Do not use the DOM manually (React is maneging the website ).
+
+-----------------------------------------------------------------------------------------------------
+# Lifting the State Up
+Lifting the state up is a technique used in React to manage state in a hierarchical way. It
+involves moving the state from a child component to a parent component, and then passing the state
+down to the child components that need it.
